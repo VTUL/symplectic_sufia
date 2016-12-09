@@ -54,6 +54,6 @@ Rails.application.configure do
 
   require 'byebug/core'
   Byebug.wait_connection = true
-  Byebug.start_server('localhost', 8081)
-  
+  Byebug.start_server('localhost', 3001)
+
 end
